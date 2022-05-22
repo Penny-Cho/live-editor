@@ -46,7 +46,7 @@ export const fetchPlugin = (inputCode: string) => {
 
         const result: esbuild.OnLoadResult = {
           loader: "jsx",
-          contents: contents,
+          contents,
           resolveDir: new URL("./", request.responseURL).pathname,
         };
 
