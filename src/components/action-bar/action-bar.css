@@ -1,0 +1,21 @@
+.field.has-addons,
+.field.is-grouped {
+  justify-content: flex-end;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.action-bar-item {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  opacity: 0.1;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.action-bar-item:hover {
+  opacity: 1;
+}
